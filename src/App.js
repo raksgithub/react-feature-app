@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Router, Route, Switch } from 'react-router';
+import { createBrowserHistory } from 'history';
+
+// Components
+import Navbar from './components/Navbar';
+import FeatureContainer from './components/FeatureContainer';
+
+// CSS
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './styles/main.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router history={createBrowserHistory()}>
+        <Navbar />
+        <Switch>
+          {["/", "/two"].map((path, index) =>
+            <Route path={path} component={FeatureContainer} key={index} />
+          )}
+        </Switch>
+      </Router>
     </div>
   );
 }

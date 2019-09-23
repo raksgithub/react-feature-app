@@ -1,0 +1,12 @@
+.button {
+  border: none;
+  width: 120px;
+  height: 36px;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  color: #1a94d6;
+  &:focus {
+    outline-style: none;
+  }
+}

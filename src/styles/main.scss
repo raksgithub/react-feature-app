@@ -1,0 +1,80 @@
+@import "./components/button.scss";
+@import "./variables.scss";
+
+.feature-item-title {
+  font-size: 30px;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+.feature-item-price {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.feature-item-footer {
+  text-align: center;
+  p {
+    margin-bottom: 15px;
+  }
+  @media (min-width: $max-width-xs2) {
+    margin-top: 30px;
+  }
+  button {
+    margin-bottom: 5px;
+  }
+}
+
+.feature-item {
+  color: white;
+  margin: 0.1rem 0.5rem;
+  height: 300px;
+  width: 400px;
+  @media (max-width: $max-width-md) {
+    margin: 0.2rem 0;
+  }
+  @media (max-width: $max-width-sm) {
+    height: 320px;
+    width: 300px;
+  }
+  @media (max-width: $max-width-xs1) {
+    height: 350px;
+    width: 250px;
+  }
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 100px;
+  @media (max-width: $max-width-xs2) {
+    margin-top: 5px;
+  }
+  @media (max-width: $max-width-md) {
+    flex-direction: column;
+  }
+}
+
+.nav-active {
+  background: $nav-item-active-bgcolor;
+  width: 50px;
+  text-align: center;
+  a {
+    color: $nav-item-active-link-color;
+    font-size: $nav-item-active-link-font-size;
+  }
+}
+
+.nav-item {
+  a {
+    color: $nav-item-active-link-color;
+  }
+}
+
+.nav-bg {
+  background: $nav-bg-color;
+}

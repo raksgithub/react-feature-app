@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test FeatureComponent with Snapshot testing Tests One Component features when item is bought by starter 1`] = `
+<div
+  className="feature-container"
+>
+  <div
+    className="feature-item"
+    style={
+      Object {
+        "backgroundColor": "#868a83",
+      }
+    }
+  >
+    <div
+      className="feature-item-title"
+    >
+      STARTER
+    </div>
+    <div
+      className="feature-item-price"
+    >
+      BOUGHT!
+    </div>
+    <div
+      className="feature-item-footer"
+    >
+      <p>
+        Starter features for your business to grow.
+      </p>
+      <button
+        className="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        CANCEL
+      </button>
+    </div>
+  </div>
+  <div
+    className="feature-item"
+    style={
+      Object {
+        "backgroundColor": "#d1d0cd",
+      }
+    }
+  >
+    <div
+      className="feature-item-title"
+    >
+      REGULAR
+    </div>
+    <div
+      className="feature-item-price"
+    >
+      $25
+    </div>
+    <div
+      className="feature-item-footer"
+    >
+      <p>
+        Regular features for your business to grow.
+      </p>
+      <button
+        className="button"
+        disabled={true}
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#e3e3dc",
+            "color": "white",
+            "cursor": "default",
+          }
+        }
+      >
+        BUY
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test FeatureComponent with Snapshot testing Tests One Component features when item is bought by ultimate 1`] = `
+<div
+  className="feature-container"
+>
+  <div
+    className="feature-item"
+    style={
+      Object {
+        "backgroundColor": "#d1d0cd",
+      }
+    }
+  >
+    <div
+      className="feature-item-title"
+    >
+      PROFESSIONAL
+    </div>
+    <div
+      className="feature-item-price"
+    >
+      $75
+    </div>
+    <div
+      className="feature-item-footer"
+    >
+      <p>
+        Professional features for your business to grow.
+      </p>
+      <button
+        className="button"
+        disabled={true}
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#e3e3dc",
+            "color": "white",
+            "cursor": "default",
+          }
+        }
+      >
+        BUY
+      </button>
+    </div>
+  </div>
+  <div
+    className="feature-item"
+    style={
+      Object {
+        "backgroundColor": "#fa3628",
+      }
+    }
+  >
+    <div
+      className="feature-item-title"
+    >
+      ULTIMATE
+    </div>
+    <div
+      className="feature-item-price"
+    >
+      BOUGHT!
+    </div>
+    <div
+      className="feature-item-footer"
+    >
+      <p>
+        The ultimate set of features for your business to grow.
+      </p>
+      <button
+        className="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        CANCEL
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test FeatureComponent with Snapshot testing Tests One Component features when item is not bought by anyone 1`] = `
+<div
+  className="feature-container"
+>
+  <div
+    className="feature-item"
+    style={
+      Object {
+        "backgroundColor": "#868a83",
+      }
+    }
+  >
+    <div
+      className="feature-item-title"
+    >
+      STARTER
+    </div>
+    <div
+      className="feature-item-price"
+    >
+      $1
+    </div>
+    <div
+      className="feature-item-footer"
+    >
+      <p>
+        Starter features for your business to grow.
+      </p>
+      <button
+        className="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        BUY
+      </button>
+    </div>
+  </div>
+  <div
+    className="feature-item"
+    style={
+      Object {
+        "backgroundColor": "#1a94d6",
+      }
+    }
+  >
+    <div
+      className="feature-item-title"
+    >
+      REGULAR
+    </div>
+    <div
+      className="feature-item-price"
+    >
+      $25
+    </div>
+    <div
+      className="feature-item-footer"
+    >
+      <p>
+        Regular features for your business to grow.
+      </p>
+      <button
+        className="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        BUY
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test FeatureComponent with Snapshot testing Tests Two Component features when item is not bought by anyone 1`] = `
+<div
+  className="feature-container"
+>
+  <div
+    className="feature-item"
+    style={
+      Object {
+        "backgroundColor": "#6f75a6",
+      }
+    }
+  >
+    <div
+      className="feature-item-title"
+    >
+      PROFESSIONAL
+    </div>
+    <div
+      className="feature-item-price"
+    >
+      $75
+    </div>
+    <div
+      className="feature-item-footer"
+    >
+      <p>
+        Professional features for your business to grow.
+      </p>
+      <button
+        className="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        BUY
+      </button>
+    </div>
+  </div>
+  <div
+    className="feature-item"
+    style={
+      Object {
+        "backgroundColor": "#fa3628",
+      }
+    }
+  >
+    <div
+      className="feature-item-title"
+    >
+      ULTIMATE
+    </div>
+    <div
+      className="feature-item-price"
+    >
+      $115
+    </div>
+    <div
+      className="feature-item-footer"
+    >
+      <p>
+        The ultimate set of features for your business to grow.
+      </p>
+      <button
+        className="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        BUY
+      </button>
+    </div>
+  </div>
+</div>
+`;
