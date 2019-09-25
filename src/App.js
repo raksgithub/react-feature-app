@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import FeatureContainer from './components/FeatureContainer';
 
 // CSS
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/main.scss';
 
 function App() {
